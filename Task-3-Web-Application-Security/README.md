@@ -82,8 +82,8 @@ Detailed notes:
 | XSS | Completed |
 | CSRF | Completed |
 | File Inclusion | Completed |
-| Burp Suite | Pending |
-| Web Security Headers | Pending |
+| Burp Suite | Completed |
+| Web Security Headers | Completed |
 
 ---
 
