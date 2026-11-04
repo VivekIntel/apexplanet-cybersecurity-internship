@@ -1,0 +1,13 @@
+flowchart TD
+    A["Arch Linux - systemd-journald"] --> B["Filebeat"]
+    C["Kali Linux - systemd-journald"] --> D["Filebeat"]
+
+    B --> E["Logstash - Port 5044"]
+    D --> E
+
+    E --> F["SSH Failure Detection - Grok Parsing"]
+    F --> G["Elasticsearch - Port 9200"]
+
+    G --> H["Kibana Discover"]
+    G --> I["Kibana Security Dashboard"]
+    G --> J["Kibana SSH Detection Alert"]
